@@ -1,0 +1,46 @@
+name: learnify
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.1.1
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.8.1
+  youtube_player_iframe: ^2.2.0
+  url_launcher: ^6.0.20
+  video_player: ^2.9.0
+  chewie: ^1.2.2
+ 
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+ 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/image1.png
+    - assets/image2.png
+    - assets/image3.png
+    - assets/image4.png
+    - assets/bing.png
+    - assets/bindo.png
+    - assets/math.png
+    - assets/LEARNIFY.png
+    
+
